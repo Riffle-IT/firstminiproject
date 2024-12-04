@@ -1,1 +1,82 @@
 /* Ini File CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.main-header {
+        font-family: 'Lobster', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+      }
+
+
+
+Konten Website
+main { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    background-color: lightskyblue;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+,main-section {
+    width: auto%;
+}
+
+.form-item {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h3 {
+    font-size: small;
+    font-weight: 100;
+    align="justify";
+
+}
+
+.form-button-container {
+    margin-top: 16px;
+}
+
+
+button {
+    color: black;
+    border: black;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+
+.text
+    input [type=number],
+     {
+        background-color: white;
+        border: none;
+        color: rgb(211, 232, 255);
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.hasil {
+    display:flex;
+    justify-content: space-evenly
+}
+
+main {
+    display flex-grow: ;
+}
+
+
+footer {
+   text-align: center;
+}

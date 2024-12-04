@@ -3,28 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop Mini Project (BMI)</title>
+    <title>Workshop Mini Project (BMI Calculator)</title>
 <link rel="stylesheet" href="css\styles.css">
 </head>
 
 <body>
     <!-- Judul Website-->
-<header>
+<header class="main-header">
     <h1> Kalkulator BMI </h1>
-
-
 </header>
 
 <!--Konten Website-->
-<main>
+<main style="display: flex;
+justify-content: space-evenly;">
+    <!--Section Form Kalkulator BMI--> 
+    <section class="main-section">
+        
+    <!--Main Article-->
+        <article >
+          <p> 
+            Berat badan ideal adalah impian semua orang. <br>
+            Tidak hanya memiliki bentuk yang menunjang penampilan, <br>
+             berat badan ideal juga menandakan kondisi tubuh yang sehat. <br>
+             Bagaimana denganmu? <br>
+             Yuk, hitung sekarang di kalkulator BMI.
+          </p>
+        </article>
+        <form>
+            <div class="form-item">
+                <Label for="berat-badan-input ">
+                    Berat Badan {kg} :
+                </Label>
+                <input type="number" id="berat-badan-input">
+
+                </input>
+            </div>
+
+            <div class="form-item" style="margin-top: 16px;">
+                <label for="usia-input">
+                    Usia {tahun} :
+                </label>
+                <input type="number" id="usia-input">
+
+                </input>
+            </div>
 
 
+            <div class="form-item" style="margin-top: 16px;">
+                <label for="tinggi-badan-input">
+                    Tinggi Badan {cm} :
+                </label>
+                <input type="number" id="tinggi-badan-input">
+
+                </input>
+            </div>
+
+            <div class="form-button-container">
+                <button> Hitung BMI </button>
+                <button> Reset</button>
+            </div>
+        </form>
+
+        <!-- Second Article-->
+        <article>
+            <header>
+                 <h2> Keunggulan Fitur </h2>
+            </header>
+
+            <p>
+                1. Menghitung berat badan <br>
+                2. Menentukan kategori berat badan ideal atau tidak <br>
+                3. Mempersiapkan program penurunan berat badan <br>
+            </p>
+
+            <h3> 
+               <span class="normal"> 
+                Kalkulator ini hanya boleh digunakan oleh orang dewasa <br>
+                (wanita hamil atau menyusui tidak boleh mengandalkan <br>
+                pembacaan BMI ini dan tidak ada tindakan yang harus <br>
+                diambil berdasarkan nilainya selain berkonsultasi <br>
+                 dengan orang yang memenuhi syarat, seperti dokter.
+               <br>
+                
+               Kalkulator akan memberi Anda gambaran tentang perbandingan <br>
+               berat badan Anda dengan nilai umum. <br>
+               Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan <br>
+               Anda (dalam kilogram) dibagi dengan <br>
+               kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M² <br>
+            </h3>
+            
+        </article>
+    </section>
+
+    <!-- Section Hasil Kalkulasi-->
+
+    <section class="Hasil">
+        <div>
+            <header> 
+                <h2> 
+                    Hasil
+                </h2> 
+
+                <p>
+                    Berat badan lebih
+                </p>
+
+                <div id="result-calculation">0</div>
+            <p id="info-result"> Anda Memiliki Berat Badan  </p>
+            </header>
+
+        </div>
+
+
+        <!--Third Artocle-->
+            <article>
+                <h4>Hasil BMI berada diantara
+                <br> </h4>
+                <h5>Anda berada dalam kategori ... </h5> <br>
+
+            </article>
+    </section>
 </main>
 
 <!-- Footer Website-->
 <footer>
-    <p> Made by Salma Kaltsum Kayana</p>
-
+    <p> Made by Salma Kaltsum Kayana @2024</p>
 </footer>
 
 
